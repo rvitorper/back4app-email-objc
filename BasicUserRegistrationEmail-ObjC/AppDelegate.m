@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+        configuration.applicationId = @"lkpSHHcMUM5GH52tz1djFlbCE3cWi5FCjWjIncWC";
+        configuration.clientKey = @"TgonK02GFWWIvoBbu1AoI9Y3uQJ3dPWfNnkeEPaZ";
+        configuration.server = @"https://parseapi.back4app.com";
+        configuration.localDatastoreEnabled = YES; // If you need to enable local data store
+    }]];
     return YES;
 }
 
