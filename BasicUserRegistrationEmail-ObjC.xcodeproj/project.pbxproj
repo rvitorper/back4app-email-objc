@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A074D11DAE95100048E0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A074D01DAE95100048E0CE /* main.m */; };
+		34A074D41DAE95100048E0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A074D31DAE95100048E0CE /* AppDelegate.m */; };
+		34A074D71DAE95100048E0CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A074D61DAE95100048E0CE /* ViewController.m */; };
+		34A074DA1DAE95100048E0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A074D81DAE95100048E0CE /* Main.storyboard */; };
+		34A074DC1DAE95100048E0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A074DB1DAE95100048E0CE /* Assets.xcassets */; };
+		34A074DF1DAE95100048E0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A074DD1DAE95100048E0CE /* LaunchScreen.storyboard */; };
+		34A074EA1DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A074E91DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCTests.m */; };
+		34A074F51DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A074F41DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A074E61DAE95100048E0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A074C41DAE95100048E0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A074CB1DAE95100048E0CE;
+			remoteInfo = "BasicUserRegistrationEmail-ObjC";
+		};
+		34A074F11DAE95100048E0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A074C41DAE95100048E0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A074CB1DAE95100048E0CE;
+			remoteInfo = "BasicUserRegistrationEmail-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A074CC1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasicUserRegistrationEmail-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A074D01DAE95100048E0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A074D21DAE95100048E0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A074D31DAE95100048E0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A074D51DAE95100048E0CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34A074D61DAE95100048E0CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34A074D91DAE95100048E0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A074DB1DAE95100048E0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A074DE1DAE95100048E0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A074E01DAE95100048E0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A074E51DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasicUserRegistrationEmail-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A074E91DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicUserRegistrationEmail_ObjCTests.m; sourceTree = "<group>"; };
+		34A074EB1DAE95100048E0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A074F01DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasicUserRegistrationEmail-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A074F41DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicUserRegistrationEmail_ObjCUITests.m; sourceTree = "<group>"; };
+		34A074F61DAE95100048E0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A074C91DAE95100048E0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A074E21DAE95100048E0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A074ED1DAE95100048E0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A074C31DAE95100048E0CE = {
+			isa = PBXGroup;
+			children = (
+				34A074CE1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC */,
+				34A074E81DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests */,
+				34A074F31DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests */,
+				34A074CD1DAE95100048E0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A074CD1DAE95100048E0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A074CC1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC.app */,
+				34A074E51DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests.xctest */,
+				34A074F01DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A074CE1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				34A074D21DAE95100048E0CE /* AppDelegate.h */,
+				34A074D31DAE95100048E0CE /* AppDelegate.m */,
+				34A074D51DAE95100048E0CE /* ViewController.h */,
+				34A074D61DAE95100048E0CE /* ViewController.m */,
+				34A074D81DAE95100048E0CE /* Main.storyboard */,
+				34A074DB1DAE95100048E0CE /* Assets.xcassets */,
+				34A074DD1DAE95100048E0CE /* LaunchScreen.storyboard */,
+				34A074E01DAE95100048E0CE /* Info.plist */,
+				34A074CF1DAE95100048E0CE /* Supporting Files */,
+			);
+			path = "BasicUserRegistrationEmail-ObjC";
+			sourceTree = "<group>";
+		};
+		34A074CF1DAE95100048E0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A074D01DAE95100048E0CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34A074E81DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A074E91DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCTests.m */,
+				34A074EB1DAE95100048E0CE /* Info.plist */,
+			);
+			path = "BasicUserRegistrationEmail-ObjCTests";
+			sourceTree = "<group>";
+		};
+		34A074F31DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A074F41DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCUITests.m */,
+				34A074F61DAE95100048E0CE /* Info.plist */,
+			);
+			path = "BasicUserRegistrationEmail-ObjCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A074CB1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A074F91DAE95100048E0CE /* Build configuration list for PBXNativeTarget "BasicUserRegistrationEmail-ObjC" */;
+			buildPhases = (
+				34A074C81DAE95100048E0CE /* Sources */,
+				34A074C91DAE95100048E0CE /* Frameworks */,
+				34A074CA1DAE95100048E0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BasicUserRegistrationEmail-ObjC";
+			productName = "BasicUserRegistrationEmail-ObjC";
+			productReference = 34A074CC1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A074E41DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A074FC1DAE95100048E0CE /* Build configuration list for PBXNativeTarget "BasicUserRegistrationEmail-ObjCTests" */;
+			buildPhases = (
+				34A074E11DAE95100048E0CE /* Sources */,
+				34A074E21DAE95100048E0CE /* Frameworks */,
+				34A074E31DAE95100048E0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A074E71DAE95100048E0CE /* PBXTargetDependency */,
+			);
+			name = "BasicUserRegistrationEmail-ObjCTests";
+			productName = "BasicUserRegistrationEmail-ObjCTests";
+			productReference = 34A074E51DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A074EF1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A074FF1DAE95100048E0CE /* Build configuration list for PBXNativeTarget "BasicUserRegistrationEmail-ObjCUITests" */;
+			buildPhases = (
+				34A074EC1DAE95100048E0CE /* Sources */,
+				34A074ED1DAE95100048E0CE /* Frameworks */,
+				34A074EE1DAE95100048E0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A074F21DAE95100048E0CE /* PBXTargetDependency */,
+			);
+			name = "BasicUserRegistrationEmail-ObjCUITests";
+			productName = "BasicUserRegistrationEmail-ObjCUITests";
+			productReference = 34A074F01DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A074C41DAE95100048E0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = back4app;
+				TargetAttributes = {
+					34A074CB1DAE95100048E0CE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					34A074E41DAE95100048E0CE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34A074CB1DAE95100048E0CE;
+					};
+					34A074EF1DAE95100048E0CE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34A074CB1DAE95100048E0CE;
+					};
+				};
+			};
+			buildConfigurationList = 34A074C71DAE95100048E0CE /* Build configuration list for PBXProject "BasicUserRegistrationEmail-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A074C31DAE95100048E0CE;
+			productRefGroup = 34A074CD1DAE95100048E0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A074CB1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC */,
+				34A074E41DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCTests */,
+				34A074EF1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A074CA1DAE95100048E0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A074DF1DAE95100048E0CE /* LaunchScreen.storyboard in Resources */,
+				34A074DC1DAE95100048E0CE /* Assets.xcassets in Resources */,
+				34A074DA1DAE95100048E0CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A074E31DAE95100048E0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A074EE1DAE95100048E0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A074C81DAE95100048E0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A074D71DAE95100048E0CE /* ViewController.m in Sources */,
+				34A074D41DAE95100048E0CE /* AppDelegate.m in Sources */,
+				34A074D11DAE95100048E0CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A074E11DAE95100048E0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A074EA1DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A074EC1DAE95100048E0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A074F51DAE95100048E0CE /* BasicUserRegistrationEmail_ObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A074E71DAE95100048E0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A074CB1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC */;
+			targetProxy = 34A074E61DAE95100048E0CE /* PBXContainerItemProxy */;
+		};
+		34A074F21DAE95100048E0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A074CB1DAE95100048E0CE /* BasicUserRegistrationEmail-ObjC */;
+			targetProxy = 34A074F11DAE95100048E0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A074D81DAE95100048E0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A074D91DAE95100048E0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A074DD1DAE95100048E0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A074DE1DAE95100048E0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A074F71DAE95100048E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A074F81DAE95100048E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A074FA1DAE95100048E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BasicUserRegistrationEmail-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34A074FB1DAE95100048E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BasicUserRegistrationEmail-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34A074FD1DAE95100048E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BasicUserRegistrationEmail-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicUserRegistrationEmail-ObjC.app/BasicUserRegistrationEmail-ObjC";
+			};
+			name = Debug;
+		};
+		34A074FE1DAE95100048E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BasicUserRegistrationEmail-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicUserRegistrationEmail-ObjC.app/BasicUserRegistrationEmail-ObjC";
+			};
+			name = Release;
+		};
+		34A075001DAE95100048E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BasicUserRegistrationEmail-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BasicUserRegistrationEmail-ObjC";
+			};
+			name = Debug;
+		};
+		34A075011DAE95100048E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BasicUserRegistrationEmail-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "back4app.BasicUserRegistrationEmail-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BasicUserRegistrationEmail-ObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A074C71DAE95100048E0CE /* Build configuration list for PBXProject "BasicUserRegistrationEmail-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A074F71DAE95100048E0CE /* Debug */,
+				34A074F81DAE95100048E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A074F91DAE95100048E0CE /* Build configuration list for PBXNativeTarget "BasicUserRegistrationEmail-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A074FA1DAE95100048E0CE /* Debug */,
+				34A074FB1DAE95100048E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34A074FC1DAE95100048E0CE /* Build configuration list for PBXNativeTarget "BasicUserRegistrationEmail-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A074FD1DAE95100048E0CE /* Debug */,
+				34A074FE1DAE95100048E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34A074FF1DAE95100048E0CE /* Build configuration list for PBXNativeTarget "BasicUserRegistrationEmail-ObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A075001DAE95100048E0CE /* Debug */,
+				34A075011DAE95100048E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A074C41DAE95100048E0CE /* Project object */;
+}
